@@ -48,4 +48,14 @@ public class Persona {
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+            "nombre='" + nombre + '\'' +
+            ", apellidoPaterno='" + apellidoPaterno + '\'' +
+            ", apellidoMaterno='" + apellidoMaterno + '\'' +
+            ", cedula='" + cedula + '\'' +
+            '}';
+    }
 }
